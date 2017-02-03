@@ -1,5 +1,5 @@
 class ProblemMailer < ActionMailer::Base
-  default from: "inquiry@inquiry.com"   # 送信元アドレス
+  default from: "send.rikushiru@gmail.com"   # 送信元アドレス
   default to: "scroll.users@gmail.com"     # 送信先アドレス
  
   def received_email(problem)
